@@ -55,9 +55,7 @@
         <url>localhost:/test</url>
     </repository>
 </distributionManagement>
-	<properties>
-    <maven.compiler.release>17</maven.compiler.release>
-</properties>
+
 
 
 </project>
