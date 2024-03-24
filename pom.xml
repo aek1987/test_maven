@@ -45,7 +45,9 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				
+				 <configuration>
+                <argLine>--add-opens java.base/java.lang=ALL-UNNAMED</argLine>
+            </configuration>
 			</plugin>
 			
 		</plugins>
